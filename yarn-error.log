@@ -1,0 +1,43 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add web3
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../../crc-32/bin/crc32.njs' -> '/storage/emulated/0/Bots/amain/node_modules/@ethereumjs/common/node_modules/.bin/crc32'
+
+npm manifest: 
+  {
+    "name": "paytmnodejsbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.26.0",
+      "mongodb": "^4.4.0",
+      "telegraf": "^4.7.0",
+      "telegraf-ratelimit": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
